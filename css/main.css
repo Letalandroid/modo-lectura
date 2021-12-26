@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 4em;
+    margin: 30px 0;
+    text-decoration: underline;
+    text-align: center;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+#modo {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    z-index: 5;
+    transition: all .5s;
+}
+
+.line {
+    display: inline-block;
+    width: 50px;
+    height: 2px;
+    background-color: #aaa;
+    position: absolute;
+    top: 60px;
+    right: 70px;
+}
+
+#modo:checked {
+    right: 70px;
+    background-color: #fff;
+}
